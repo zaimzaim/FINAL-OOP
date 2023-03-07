@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;500;700&family=Roboto:ital,wght@0,100;0,400;0,700;1,100&family=Tilt+Warp&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <center>
+    <!-- HTML -->
+    <div class="weather-container">
+      <img src="media/pexels-spencer-davis-4388164.jpg" alt="" width="100%" style="filter: brightness(40%);">
+      <h1 style="font-size: 48px;">WEATHER FORECAST IN CROATIA</h1>
+      <div class="logo">TravelPal</div>
+      <div class="nav">
+        <a href="index.html">HOME</a>
+        <a href="">PLACES</a>
+        <a href="weather.html">WEATHER</a>
+        <a href="" style="padding-right: 0;">ABOUT</a>
+      </div>
+      <form>
+        <label for="city-select">Select a city:</label>
+        <select id="city-select" name="city">
+          <option value="zagreb">Zagreb</option>
+          <option value="Istria">Istria</option>
+          <option value="split">Split</option>
+          <option value="rijeka">Rijeka</option>
+          <option value="rovinj">Rovinj</option>
+          <option value="dubrovnik">Dubrovnik</option>
+          <option value="osijek">Osijek</option>
+        </select>
+        <button type="submit">Get Weather</button>
+      </form>
+      <div id="weather-info" class="weather-info"></div>
+    </div>
+  </center>
+  <footer>
+    <center>
+      <h2 style="padding-top: 10px;margin: 0;">travelpal@croatia</h2>
+    </center>
+  </footer>
+  <script src="weather.js"></script>
+</body>
+</html>
